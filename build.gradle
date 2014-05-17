@@ -10,5 +10,6 @@ compileTestJava { options.encoding = "UTF-8" }
 
 repositories { mavenCentral() }
 dependencies {
+	compile "org.apache.commons:commons-lang3:3.3"
 	testCompile "junit:junit:4.11"
 }
