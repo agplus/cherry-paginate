@@ -1,0 +1,13 @@
+@CHARSET "UTF-8";
+
+ul.app-flat {
+	list-style: none;
+}
+
+ul.app-flat>li {
+	display: inline;
+}
+
+ul.app-flat>li+li {
+	margin-left: 5px;
+}
